@@ -1,0 +1,553 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #ebebeb;
+    padding: 30px;
+}
+
+.bagan {
+    width: 1150px;
+    margin: auto;
+    background-color: white;
+}
+
+.nav-bar {
+    height: 130px;
+    padding-top: 25px;
+    border-bottom: 1px rgb(103, 110, 104) solid;
+    z-index: 99999;
+    overflow: hidden;
+    background-color:  rgb(255, 255, 255);
+    position: fixed; 
+    top: 0; 
+    width: 1150px;
+}
+
+.nav-bar-left {
+    width: 100px;
+    margin-left: 7%;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.nav-bar-right {
+    width: 288px;
+    margin-left: 67%;
+    margin-top: -80px;
+    
+}
+
+.nav-bar-right li {
+    display: inline-block;
+}
+
+.nav-bar-right ul {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.nav-bar-right .satu{
+    width: 70px;
+    margin-left: -40px;
+}
+
+.nav-bar-right .tngh {
+    margin-left: -8px;
+    border-right:  2px solid ;
+    border-left: 2px solid;
+}
+
+.nav-bar-right .dua {
+    margin-left: -8px;
+}
+
+.nav-bar-right a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0px 5px 0px 5px ;
+}
+
+.nav-bar-right a:hover {
+    background-color: rgb(103, 110, 104);
+    transition: 0.4s ;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    margin-top: 100px;
+    position: relative;
+    padding-top: 200px;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 1px;
+}
+
+.judul {
+    width: 900px;
+    margin: auto;
+    margin-top: -120px;
+}
+
+.judul .haha {
+    text-align: center;
+    font-size: 40px;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.judul .indo {
+    margin-top: -50px;
+    color: #1a1a1a;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.judul p {
+    text-align: center;
+    color: gray;
+}
+
+.content .cf {
+    padding: 20px;
+}
+
+.main {
+    background-color: black;
+    margin-left: 35px;
+    margin-top: -30px;
+    height: 100px;
+    width: 600px;
+    float: left;
+}
+
+.gambar img {
+    background-color: red;
+    width: 600px;
+    height: 560px;
+    margin-top: -10px;
+}
+
+.day {
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.ab p {
+    color: #909090;
+    font-size: 17px;
+    margin-left: 80px;
+}
+
+.cd {
+    width: 400px;
+    height: 55px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.icon {
+    background-color: rgb(238, 240, 244);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.icon i {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.floren {
+    width: 200px;
+    margin-left: 70px;
+    margin-top: -60px;
+}
+
+.floren h5 {
+    font-weight: bold;
+}
+
+.floren p {
+    margin-top: -10px;
+    color: #b6b6b6;
+}
+
+.garis {
+    margin-top: 40px;
+    margin-left: 245px;
+    background-color: rgb(238, 240, 244);
+    width: 150px;
+    height: 5px;
+}
+
+.use {
+    width: 490px;
+    margin-top: 40px;
+    margin-left: 17px;
+}
+
+.use p {
+    font-weight: bold;
+}
+
+.duga {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 17px;
+}
+
+.tu {
+    width: 400px;
+}
+
+.du {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.ga {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.tuga {
+    width: 40px;
+    background-color: rgb(238, 240, 244);
+    height: 40px;
+    border-radius: 50%;
+}
+
+.tuga p {
+    margin-left: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #b6b6b6;
+}
+
+.tulis {
+    width: 350px;
+    margin-left: 70px;
+    margin-top: -58px;
+}
+
+.tulis2 {
+    width: 300px;
+    margin-left: 70px;
+    margin-top: -58px;
+}
+
+.tulis3 {
+    width: 315px;
+    margin-left: 70px;
+    margin-top: -58px;
+}
+
+.tulis p {
+    color: #b6b6b6;
+}
+
+.tulis2 p {
+    color: #b6b6b6;
+}
+
+.tulis3 p {
+    color: #b6b6b6;
+}
+
+.sidebar {
+    background-color: rgb(238, 240, 244);
+    width: 400px;
+    height: 670px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.contant2 {
+    padding-top: 30px;
+    margin: auto;
+    width: 300px;
+}
+
+.contact h4 {
+    font-weight: bold;
+}
+
+.contact p {
+    color: rgb(98, 98, 98);
+}
+
+.formulir {
+    height: 330px;
+    width: 300px;
+    margin-top: 70px;
+}
+
+.formulir h6 {
+    font-weight: bold;
+}
+
+.formulir input {
+    box-shadow: 0px 0px 5px 0px rgba(185, 193, 203, 0.5);
+    border: 4px solid rgb(185, 193, 203);
+    border-radius: 5px;
+    padding: 15px;
+    color: #b6b6b6;
+}
+
+.select input {
+    width: 270px;
+    border-radius: 5px 0 0 5px;
+    margin-top: -60px;
+    position: relative;
+    padding: 15.5px;
+    color: #b6b6b6;
+    font-size: 15px;
+}
+
+.formulir select {
+    border: 4px solid rgb(185, 193, 203);
+    border-radius: 5px;
+    padding: 16px;
+
+}
+
+.submit {
+    font-weight: bold;
+}
+
+.submit input {
+    width: 300px;
+    border: 4px solid rgb(50, 50, 50);
+    background-color: #03022a;
+    color: white;
+    margin-top: -10px;
+}
+
+.our {
+    margin-top: 400px;
+    height: 250px;
+    padding-top: 50px ;
+    background-color: rgb(238, 240, 244);
+    text-align: center;
+    line-height: 50px;
+    margin-left: -1px;
+}
+
+.our p {
+    line-height: 200px;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.utama {
+    width: 1000px;
+    height: 580px;
+    margin: auto;
+}
+
+.atas {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    z-index: 999999;
+    position: absolute;
+}
+
+.fresh {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.fresh2 {
+    width: 300px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.fresh3 {
+    width: 300px;
+    height: 200px;
+    margin-left: 700px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.tuga1 {
+    width: 50px;
+    background-color: rgb(238, 240, 244);
+    height: 50px;
+    border-radius: 100%;
+}
+
+.tuga1 i {
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.vegetable {
+    width: 250px;
+    margin-left: 70px;
+    margin-top: -60px;
+    color: #4a4a4a;
+}
+
+.vegetable p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sayuran {
+    width: 250px;
+    margin-left: 70px;
+}
+
+.sayuran p {
+    color: #b6b6b6;
+}
+
+.garis2 {
+    margin-top: 290px;
+    margin-left: 400px;
+    background-color: rgb(238, 240, 244);
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.bawah {
+    width: 1000px;
+    height: 295px;
+    margin: auto;
+    margin-top: 370px;
+    position: absolute;
+}
+
+.kitchen {
+    width: 300px;
+    height: 200px;
+}
+
+.kitchen2 {
+    width: 300px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.kitchen3 {
+    width: 300px;
+    height: 200px;
+    margin-left: 700px;
+    margin-top: -200px;
+}
+
+.closing {
+    height: 330px;
+    padding-top: 20px;
+}
+
+.argument {
+    width: 800px;
+    height: 300px;
+    margin-left: 175px;
+    position: absolute;
+}
+
+.headling {
+    margin-top: 50px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.headling p {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.suspe {
+    width: 620px;
+    margin-left: 90px;
+}
+
+.suspe p {
+    color: #b6b6b6;
+    text-align: center;
+}
+
+.bot {
+    font-weight: bold;
+}
+
+.bot input {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #050428;
+    color: white;
+    margin-top: 30px;
+    height: 60px;
+    margin-left: 270px;
+    width: 280px;
+}
+
+footer {
+    height: 150px;
+}
+
+.moqups {
+    width: 300px;
+    height: 150px;
+    margin-left: 435px;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+}
+
+.hiji p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.duo {
+    width: 300px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+.duo p {
+    display: inline-block;
+    color: #b6b6b6;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
